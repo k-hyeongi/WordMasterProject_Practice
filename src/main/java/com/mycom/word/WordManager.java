@@ -51,6 +51,7 @@ public class WordManager {
             if (menu == 4) {
                 // create
                 wordCRUD.addWord();
+                System.out.println("성공적으로 추가되었습니다");
             }
             else if (menu == 1) {
                 // show list
