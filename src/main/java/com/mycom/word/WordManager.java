@@ -50,12 +50,20 @@ public class WordManager {
             if (menu == 0) break;
             if (menu == 4) {
                 // create
-                wordCRUD.addWord();
+                wordCRUD.addItem();
                 System.out.println("성공적으로 추가되었습니다");
             }
             else if (menu == 1) {
                 // show list
                 wordCRUD.listAll();
+            }
+            else if (menu == 5) {
+                // update
+                wordCRUD.updateItem();
+            }
+            else if (menu == 6) {
+                // delete
+                wordCRUD.deleteItem();
             }
 
             System.out.println(menu);
